@@ -1,0 +1,49 @@
+body{
+    background-color: #004aad;
+}
+.divImg{
+    position: relative;
+
+}
+#img{
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate( -50%,  50%);
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004aad;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px 5px;
+  }
+  
+  li {
+    float: left;
+    border-right:2px solid rgb(255, 255, 255);
+   
+   
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.466);
+  }
+  
+  .active {
+    background-color:rgba(0, 0, 0, 0.301);;
+    color:rgb(255, 255, 255);
+    
+  }
+  
